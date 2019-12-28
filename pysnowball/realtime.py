@@ -14,13 +14,6 @@ def pankou(symbol):
     url = api_ref.realtime_pankou+symbol
     return utls.fetch_without_token(url)
 
-
-
-def performances(gid):
-    url = api_ref.realtime_performances+gid
-    return utls.fetch(url)
-
-
 def list(pid):
     url = api_ref.realtime_list+pid
     return utls.fetch(url)

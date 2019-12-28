@@ -32,8 +32,22 @@ f10_indicator = "https://stock.xueqiu.com/v5/stock/f10/cn/indicator.json?symbol=
 
 # real time
 realtime_quote = "https://stock.xueqiu.com/v5/stock/realtime/quotec.json?symbol="
-realtime_pankou = "https://stock.xueqiu.com/stock/pankou.json?symbol="
+realtime_pankou = "https://stock.xueqiu.com/v5/stock/realtime/pankou.json?symbol="
 
-realtime_performances = "https://tc.xueqiu.com/tc/snowx//MONI/performances.json?gid="
-realtime_list = "https://stock.xueqiu.com/v5/stock/portfolio/stock/list.json?size=1000&category=1&pid="
 realtime_batch_quote = "https://stock.xueqiu.com/v5/stock/batch/quote.json?symbol="
+
+#portfolio
+portfolio_list = "https://stock.xueqiu.com/v5/stock/portfolio/list.json?sytem=true"
+portfolio_stock_list = "https://stock.xueqiu.com/v5/stock/portfolio/stock/list.json?size=1000&category=1&pid="
+
+#history
+history_trade = "https://stock.xueqiu.com/v5/stock/history/trade.json"
+history_quote = "https://stock.xueqiu.com/v5/stock/quote.json"
+
+#moni
+moni_trans_groups = "https://tc.xueqiu.com/tc/snowx/MONI/trans_group/list.json"
+moni_performances = "https://tc.xueqiu.com/tc/snowx//MONI/performances.json?gid="
+
+
+
+
