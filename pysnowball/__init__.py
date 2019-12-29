@@ -20,7 +20,7 @@ from pysnowball.f10 import(skholderchg, skholder, main_indicator,
 
 from pysnowball.token import (get_token,set_token)
 
-from pysnowball.portfolio import(list, stock_list)
+from pysnowball.portfolio import(list, stock_list, search)
 
 from pysnowball.history import(trade, quote)
 

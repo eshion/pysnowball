@@ -39,7 +39,7 @@ realtime_batch_quote = "https://stock.xueqiu.com/v5/stock/batch/quote.json?symbo
 #portfolio
 portfolio_list = "https://stock.xueqiu.com/v5/stock/portfolio/list.json?sytem=true"
 portfolio_stock_list = "https://stock.xueqiu.com/v5/stock/portfolio/stock/list.json?size=1000&category=1&pid="
-
+portfolio_search = "https://xueqiu.com/stock/p/search.json"
 #history
 history_trade = "https://stock.xueqiu.com/v5/stock/history/trade.json"
 history_quote = "https://stock.xueqiu.com/v5/stock/quote.json"
